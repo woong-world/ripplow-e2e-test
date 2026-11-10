@@ -1,0 +1,6 @@
+{
+  "name": "ripplow-e2e-test",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test" }
+}
