@@ -7,3 +7,8 @@ export function greet(name) {
 export function farewell(name) {
   return `Goodbye, ${name}!`;
 }
+
+/** A wave for a name. */
+export function wave(name) {
+  return `👋 ${name}`;
+}
