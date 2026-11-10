@@ -7,3 +7,8 @@ export function greet(name) {
 export function farewell(name) {
   return `Goodbye, ${name}!`;
 }
+
+/** The greeting for a name in upper case. */
+export function shout(name) {
+  return greet(name).toUpperCase();
+}
