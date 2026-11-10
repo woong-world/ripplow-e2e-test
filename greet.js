@@ -1,6 +1,7 @@
 /** A greeting for a name. */
 export function greet(name) {
-  return `Hello, ${name}!`;
+  const who = name.trim() === '' ? 'stranger' : name;
+  return `Hello, ${who}!`;
 }
 
 /** A farewell for a name. */
