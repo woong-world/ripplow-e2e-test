@@ -10,5 +10,5 @@ export function farewell(name) {
 
 /** A shouted greeting for a name. */
 export function yell(name) {
-  return `Hello, ${name}!!!`;
+  return `Hello, ${name.trim()}!!!`;
 }

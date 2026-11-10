@@ -13,3 +13,7 @@ test('says farewell by name', () => {
 test('yells by name', () => {
   assert.equal(yell('Ann'), 'Hello, Ann!!!');
 });
+
+test('trims spaces when yelling', () => {
+  assert.equal(yell('  Ann  '), 'Hello, Ann!!!');
+});
