@@ -1,7 +1,11 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
-import { greet } from './greet.js';
+import { farewell, greet } from './greet.js';
 
 test('greets by name', () => {
   assert.equal(greet('Ripplow'), 'Hello, Ripplow!');
+});
+
+test('says farewell by name', () => {
+  assert.equal(farewell('Ripplow'), 'Goodbye, Ripplow!');
 });
