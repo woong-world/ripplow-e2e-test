@@ -8,7 +8,7 @@ export function farewell(name) {
   return `Goodbye, ${name}!`;
 }
 
-/** The greeting for a name in lower case. */
+/** The greeting for a trimmed name in lower case. */
 export function whisper(name) {
-  return greet(name).toLowerCase();
+  return greet(name.trim()).toLowerCase();
 }

@@ -13,3 +13,7 @@ test('says farewell by name', () => {
 test('whispers the greeting in lower case', () => {
   assert.equal(whisper('Ripplow'), 'hello, ripplow!');
 });
+
+test('whispers trimmed names', () => {
+  assert.equal(whisper('  Ann '), 'hello, ann!');
+});
