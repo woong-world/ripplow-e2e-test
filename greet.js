@@ -7,3 +7,8 @@ export function greet(name) {
 export function farewell(name) {
   return `Goodbye, ${name}!`;
 }
+
+/** A shouted greeting for a name. */
+export function yell(name) {
+  return `Hello, ${name}!!!`;
+}
