@@ -6,6 +6,10 @@ test('greets by name', () => {
   assert.equal(greet('Ripplow'), 'Hello, Ripplow!');
 });
 
+test('greets by name with a configured greeting', () => {
+  assert.equal(greet('Ripplow', 'Hi'), 'Hi, Ripplow!');
+});
+
 test('says farewell by name', () => {
   assert.equal(farewell('Ripplow'), 'Goodbye, Ripplow!');
 });
