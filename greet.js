@@ -1,6 +1,6 @@
-/** A greeting for a name. */
-export function greet(name) {
-  return `Hello, ${name}!`;
+/** A greeting for a name, using `greeting` (default 'Hello'). */
+export function greet(name, greeting = 'Hello') {
+  return `${greeting}, ${name}!`;
 }
 
 /** A farewell for a name. */
